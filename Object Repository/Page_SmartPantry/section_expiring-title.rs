@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>section_expiring-title</name>
+   <tag></tag>
+   <elementGuidId>ddcd4f23-81c7-40d7-a0b8-f61e1165c9dd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[aria-labelledby=&quot;expiring-title&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@aria-labelledby = 'expiring-title']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>section</value>
+      <webElementGuid>0ddeff7d-89fe-441e-b4c6-0b05f0bfa4c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>expiring</value>
+      <webElementGuid>be3a9956-a4c8-4776-b21c-d31b3bd3fc2b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-labelledby</name>
+      <type>Main</type>
+      <value>expiring-title</value>
+      <webElementGuid>be74560e-b3d3-4c9b-903f-58c2bee2ca98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>A expirar nas próximas 48 hConsome estes produtos primeiro.Laranja1 Unidade(s)expira amanhã</value>
+      <webElementGuid>e843e52b-f5cd-4b30-be41-47528755099d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-c7c403900a7d99a9f2834dc568010dda</value>
+      <webElementGuid>5a1a7acd-b8d1-4503-b26d-01e13531ef98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@aria-labelledby = 'expiring-title']</value>
+      <webElementGuid>69cff40c-9c27-4a72-aebe-cb36bf6c22a6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@aria-labelledby = 'expiring-title']</value>
+      <webElementGuid>a2da63ab-94f7-402b-a65f-9a827828e0bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//section[(text() = 'A expirar nas próximas 48 hConsome estes produtos primeiro.Laranja1 Unidade(s)expira amanhã' or . = 'A expirar nas próximas 48 hConsome estes produtos primeiro.Laranja1 Unidade(s)expira amanhã')]</value>
+      <webElementGuid>c7ca814a-6800-44b3-91ac-9e60ef6c93e7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
