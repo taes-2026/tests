@@ -13,24 +13,6 @@ import io.cucumber.java.en.When
 
 class AddPantryItemSteps {
 
-    @Given("I start the application in the {string} url")
-    def startApplication(url) {
-        WebUI.openBrowser('')
-        WebUI.navigateToUrl(url)
-        WebUI.setText(findTestObject('Page_SmartPantry/input_Nome do perfil'), 'Teste')
-        WebUI.click(findTestObject('Page_SmartPantry/button_Comear'))
-    }
-
-    @When("I tap the adicionar produto button")
-    def tapAdicionarProduto() {
-        WebUI.click(findTestObject('Page_SmartPantry/button_Adicionar produto'))
-    }
-
-    @And("I tap introduzir manualmente button")
-    def tapIntroduzirManualmente() {
-        WebUI.click(findTestObject('Page_SmartPantry/button_Introduzir manualmente'))
-    }
-
     @And("I fill the item details")
     def fillItemDetails() {
         WebUI.setText(findTestObject('Page_SmartPantry/input_Nome do produto'), 'leite')
@@ -39,18 +21,8 @@ class AddPantryItemSteps {
         WebUI.setText(findTestObject('Page_SmartPantry/input_Data de validade'), '2026-11-19')
     }
 
-    @And("I save the item")
-    def saveItem() {
-        WebUI.click(findTestObject('Page_SmartPantry/button_Comear'))
-    }
-
     @And("I see the item in my pantry")
     def verifyItemInPantry() {
 	    WebUI.verifyElementPresent(findTestObject('Page_SmartPantry/td_Leite'), 5)
 	}
-
-    @Then("I close the browser")
-    def closeBrowser() {
-        WebUI.closeBrowser()
-    }
 }
