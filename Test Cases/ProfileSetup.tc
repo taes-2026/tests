@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ProfileSetup</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Bruno</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Bruno</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>c84d8c36-be5a-45b8-821d-279310caf298</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>c84d8c36-be5a-45b8-821d-279310caf298</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3eb09126-5a8b-42e6-a496-68f459f43be3</testCaseGuid>
+</TestCaseEntity>

@@ -6,6 +6,10 @@
    <elementGuidId>d1e634ad-d941-463c-a1fe-e010c0e842ef</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and (text() = 'Começar' or . = 'Começar')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>[type=&quot;submit&quot;]</value>
       </entry>
@@ -13,12 +17,14 @@
          <key>XPATH</key>
          <value>//*[@type = 'submit']</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'submit' and (text() = 'Começar' or . = 'Começar')]</value>
-      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Começar&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -27,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>2d320d8c-1338-4537-9c75-db4f5fa6f849</webElementGuid>
+      <webElementGuid>910a4016-e3e7-437e-b70c-f7e65199c41d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,7 +41,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>2cf38263-ace6-443e-8c5f-778a5ec1eba3</webElementGuid>
+      <webElementGuid>6da082f1-8d98-4e03-af5d-6db455c811e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Começar</value>
-      <webElementGuid>ef7c148f-3613-405b-be3a-d274beac0058</webElementGuid>
+      <webElementGuid>849bdacb-611f-41e1-a866-921cf06656f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +57,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-9079020a2e38f5631afdd3ace81c44b3</value>
-      <webElementGuid>b469b366-f9d6-4988-8a58-b0da5052deeb</webElementGuid>
+      <webElementGuid>a1279cf6-3dc5-4038-8d1e-d6889d631659</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@type = 'submit']</value>
-      <webElementGuid>51f93355-e17b-4dbf-ba2c-6a1cfea5cf31</webElementGuid>
+      <webElementGuid>268c60bd-8e8d-40a5-9826-4d7c125d681c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@type = 'submit']</value>
-      <webElementGuid>b2200805-102e-4227-b12a-f0ff86baa8da</webElementGuid>
+      <webElementGuid>67e4af18-f72e-484f-8981-29825535086f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +81,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and (text() = 'Começar' or . = 'Começar')]</value>
-      <webElementGuid>4226b951-757e-48c4-aceb-4f2dbbecc229</webElementGuid>
+      <webElementGuid>45ea2fbf-c4e1-4101-81bb-c0a8d5fe376c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

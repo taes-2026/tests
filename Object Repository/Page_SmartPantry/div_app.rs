@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_app</name>
+   <tag></tag>
+   <elementGuidId>2d984740-bf89-474c-9f2a-bcbf0c6862bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#app</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'app']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#app</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>77f48c22-4bc0-4a06-b8d6-16f5624f37f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>app</value>
+      <webElementGuid>6f482afa-0305-467d-b577-aa7633b292aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Configurar perfil Nome do perfil  Dieta OmnívoroVegetarianoVeganoPescetarianoAlergias Lactose AmendoinsRestricoes Glúten Porco Acucar (nao tenho a cedilha e nao vou pesquisar para colar aqui)Começar</value>
+      <webElementGuid>94cf96bc-ae03-4515-92ec-68c1daf308f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-ca6145d2ad7c203fc85ae4d5681cdd66</value>
+      <webElementGuid>28489526-a7e3-4f77-aeb2-3a17466a6dcb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'app']</value>
+      <webElementGuid>58c8760e-2cab-4a9c-a075-64ecf879b746</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'app']</value>
+      <webElementGuid>b83641a9-bcf4-46c0-9679-e915cd1cfbdf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'app' and (text() = 'Configurar perfil Nome do perfil  Dieta OmnívoroVegetarianoVeganoPescetarianoAlergias Lactose AmendoinsRestricoes Glúten Porco Acucar (nao tenho a cedilha e nao vou pesquisar para colar aqui)Começar' or . = 'Configurar perfil Nome do perfil  Dieta OmnívoroVegetarianoVeganoPescetarianoAlergias Lactose AmendoinsRestricoes Glúten Porco Acucar (nao tenho a cedilha e nao vou pesquisar para colar aqui)Começar')]</value>
+      <webElementGuid>93cfdabb-f37b-41d2-8f55-0a2687384f39</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

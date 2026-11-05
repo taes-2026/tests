@@ -66,7 +66,7 @@ class CommonSteps {
 
     @And("I save the item")
     def saveItem() {
-        WebUI.click(findTestObject('Page_SmartPantry/button_Comear'))
+        WebUI.click(findTestObject('Page_SmartPantry/button_Guardar'))
     }
 
     @And("I close the browser")
