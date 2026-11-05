@@ -6,9 +6,9 @@ Feature: SMAR-13 Add Pantry item
 
   @tag1
    Scenario: Add a pantry item manually
-    Given I start the application
-    When I tap the "Add Item" button
-    And I tap "enter manually" button
+    Given I start the application in the "http://localhost:5173/" url
+    When I tap the adicionar produto button
+    And I tap introduzir manualmente button
     And I fill the item details
     And I save the item
     And I see the item in my pantry

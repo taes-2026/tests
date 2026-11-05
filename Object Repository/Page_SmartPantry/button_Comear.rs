@@ -6,16 +6,16 @@
    <elementGuidId>d1e634ad-d941-463c-a1fe-e010c0e842ef</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'submit' and (text() = 'Começar' or . = 'Começar')]</value>
+         <key>CSS</key>
+         <value>[type=&quot;submit&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//*[@type = 'submit']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>[type=&quot;submit&quot;]</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and (text() = 'Começar' or . = 'Começar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>22464790-89ee-4061-a839-0ad97f441e7c</webElementGuid>
+      <webElementGuid>e0e4bc4b-5244-4eeb-919e-38fa5881a77e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,7 +35,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>32753eb0-fddc-4e4e-8401-d712de7f465f</webElementGuid>
+      <webElementGuid>18132adb-dd1e-4f8b-bbc2-8a9e4cfe213a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,7 +43,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Começar</value>
-      <webElementGuid>c8a5d468-c7ef-4a71-aacb-350f37eee0a4</webElementGuid>
+      <webElementGuid>8836c36e-9338-48ae-a430-931c4e7736e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +51,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-9079020a2e38f5631afdd3ace81c44b3</value>
-      <webElementGuid>b382be20-292a-4566-9001-8dc9a5316166</webElementGuid>
+      <webElementGuid>94be556c-869d-402e-b77a-c4837a12bad6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@type = 'submit']</value>
-      <webElementGuid>079d331f-1f1b-46db-90b8-c1dbbdc93684</webElementGuid>
+      <webElementGuid>bea1943c-6451-4611-ab91-8ac54fd4f331</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,7 +67,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@type = 'submit']</value>
-      <webElementGuid>52188f50-8a26-494e-bef8-e61c00b02ceb</webElementGuid>
+      <webElementGuid>f54b04e3-51f2-4060-85e8-579d3094dfc5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +75,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and (text() = 'Começar' or . = 'Começar')]</value>
-      <webElementGuid>57fbe7af-31d3-4091-93ee-906be9417466</webElementGuid>
+      <webElementGuid>861d5588-b9b1-4bfa-885c-80d213f322bb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,16 +6,16 @@
    <elementGuidId>24bbd9d9-3336-4591-ba96-b24d86eabeba</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'FrutasLegumesCarnesPeixeLaticíniosMerceariaBebidasCongeladosOutros' or . = 'FrutasLegumesCarnesPeixeLaticíniosMerceariaBebidasCongeladosOutros')]</value>
+         <key>CSS</key>
+         <value>label:nth-child(2) select</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//*[(name() = 'label') and (position() = 2)]//select</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>label:nth-child(2) select</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'FrutasLegumesCarnesPeixeLaticíniosMerceariaBebidasCongeladosOutros' or . = 'FrutasLegumesCarnesPeixeLaticíniosMerceariaBebidasCongeladosOutros')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>15baeeb2-156c-4b5e-9f2f-cec5072e58ac</webElementGuid>
+      <webElementGuid>5bdde8b4-a844-4fbe-a54c-b91f08bae8e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,7 +35,7 @@
       <name>text</name>
       <type>Main</type>
       <value>FrutasLegumesCarnesPeixeLaticíniosMerceariaBebidasCongeladosOutros</value>
-      <webElementGuid>037bad49-5fe5-47b0-afdd-1afb654aefb0</webElementGuid>
+      <webElementGuid>c59a876c-971e-45c1-9e19-b63a40d96c4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +43,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-a94b57530dbba72bd691a8e97b882860</value>
-      <webElementGuid>aa6a296f-0757-413f-9674-b1ffc3a18452</webElementGuid>
+      <webElementGuid>7e89c03f-b2b4-43cb-9b23-48d1c13601f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +51,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[(name() = 'label') and (position() = 2)]//select</value>
-      <webElementGuid>a9901549-c72d-4389-9c22-23f3b6f24ffc</webElementGuid>
+      <webElementGuid>77ce1fb2-2c34-445c-a965-42c6da38335b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[(name() = 'label') and (position() = 2)]//select</value>
-      <webElementGuid>ff801c5a-e2ad-49a1-b1bb-05ccdaefc3df</webElementGuid>
+      <webElementGuid>ba1da555-8277-453b-8c3d-e712d7384619</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,6 +67,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[(text() = 'FrutasLegumesCarnesPeixeLaticíniosMerceariaBebidasCongeladosOutros' or . = 'FrutasLegumesCarnesPeixeLaticíniosMerceariaBebidasCongeladosOutros')]</value>
-      <webElementGuid>6be6539f-4c8e-42fb-9bd4-cfdd7bb0e8aa</webElementGuid>
+      <webElementGuid>6437d0ba-250d-42d8-8365-e982b2825f08</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

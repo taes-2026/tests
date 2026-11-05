@@ -1,41 +1,8 @@
 package steps
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
-import com.kms.katalon.core.annotation.Keyword
-import com.kms.katalon.core.checkpoint.Checkpoint
-import com.kms.katalon.core.checkpoint.CheckpointFactory
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.model.FailureHandling
-import com.kms.katalon.core.testcase.TestCase
-import com.kms.katalon.core.testcase.TestCaseFactory
-import com.kms.katalon.core.testdata.TestData
-import com.kms.katalon.core.testdata.TestDataFactory
-import com.kms.katalon.core.testobject.ObjectRepository
-import com.kms.katalon.core.testobject.TestObject
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-
-import internal.GlobalVariable
-
-import org.openqa.selenium.WebElement
-import org.openqa.selenium.WebDriver
-import org.openqa.selenium.By
-
-import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
-import com.kms.katalon.core.webui.driver.DriverFactory
-
-import com.kms.katalon.core.testobject.RequestObject
-import com.kms.katalon.core.testobject.ResponseObject
-import com.kms.katalon.core.testobject.ConditionType
-import com.kms.katalon.core.testobject.TestObjectProperty
-
-import com.kms.katalon.core.mobile.helper.MobileElementCommonHelper
-import com.kms.katalon.core.util.KeywordUtil
-
-import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
 import io.cucumber.java.en.And
 import io.cucumber.java.en.Given
@@ -45,23 +12,45 @@ import io.cucumber.java.en.When
 
 
 class AddPantryItemSteps {
- /**
-* The step definitions below match with Katalon sample Gherkin steps
-*/
-@Given("I want to write a step with {string}")
-def I_want_to_write_a_step_with_name(String name) {
-	println name
-}
 
-@When("I check for the {int} in step")
-def I_check_for_the_value_in_step(int value) {
-	println value
-}
+    @Given("I start the application in the {string} url")
+    def startApplication(url) {
+        WebUI.openBrowser('')
+        WebUI.navigateToUrl(url)
+        WebUI.setText(findTestObject('Page_SmartPantry/input_Nome do perfil'), 'Teste')
+        WebUI.click(findTestObject('Page_SmartPantry/button_Comear'))
+    }
 
-@Then("I verify the {string} in step")
-def I_verify_the_status_in_step(String status) {
-	println status
-}
+    @When("I tap the adicionar produto button")
+    def tapAdicionarProduto() {
+        WebUI.click(findTestObject('Page_SmartPantry/button_Adicionar produto'))
+    }
 
- 
+    @And("I tap introduzir manualmente button")
+    def tapIntroduzirManualmente() {
+        WebUI.click(findTestObject('Page_SmartPantry/button_Introduzir manualmente'))
+    }
+
+    @And("I fill the item details")
+    def fillItemDetails() {
+        WebUI.setText(findTestObject('Page_SmartPantry/input_Nome do produto'), 'leite')
+        WebUI.selectOptionByValue(findTestObject('Page_SmartPantry/select_Categoria FrutasLegumesCarnesPeixeLaticn'), 'dairy', false)
+        WebUI.setText(findTestObject('Page_SmartPantry/input_Quantidade'), '2')
+        WebUI.setText(findTestObject('Page_SmartPantry/input_Data de validade'), '2026-11-19')
+    }
+
+    @And("I save the item")
+    def saveItem() {
+        WebUI.click(findTestObject('Page_SmartPantry/button_Comear'))
+    }
+
+    @And("I see the item in my pantry")
+    def verifyItemInPantry() {
+	    WebUI.verifyElementPresent(findTestObject('Page_SmartPantry/td_Leite'), 5)
+	}
+
+    @Then("I close the browser")
+    def closeBrowser() {
+        WebUI.closeBrowser()
+    }
 }

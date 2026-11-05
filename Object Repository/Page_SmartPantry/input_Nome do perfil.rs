@@ -6,16 +6,16 @@
    <elementGuidId>c6333f97-2b86-4bf2-9bf9-ce44e00f1e1c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'text']</value>
+         <key>CSS</key>
+         <value>[autocomplete=&quot;name&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//*[@autocomplete = 'name']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>[autocomplete=&quot;name&quot;]</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'text']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>4509dabc-b590-4f25-b2b0-67ee60d21dc8</webElementGuid>
+      <webElementGuid>cf667d8b-5cdb-4169-a1df-871bdae72dee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,7 +35,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>c2a990f6-1227-4338-9092-905e124f26ef</webElementGuid>
+      <webElementGuid>6dd50d72-aca7-4384-a9ee-9888f96a7b8e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +43,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>name</value>
-      <webElementGuid>53c4ce7b-8182-49e4-a2fc-180ba4822f2f</webElementGuid>
+      <webElementGuid>17c08e46-16e4-422d-a5ff-1ccfa59b401f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +51,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>80</value>
-      <webElementGuid>677fb5df-fd17-462d-8890-d7ac3873d761</webElementGuid>
+      <webElementGuid>e8da016e-d2b8-4639-9b15-3ef60d2bef0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-ad34d9c587c5f62381190862c411626f</value>
-      <webElementGuid>c6f140d3-18e7-4b9e-ab60-583b3a3697dc</webElementGuid>
+      <webElementGuid>f7ea715c-db02-413b-bad9-79f30440c8b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,7 +67,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@autocomplete = 'name']</value>
-      <webElementGuid>cae4a230-2b45-437d-ae71-51c0c5b1c36d</webElementGuid>
+      <webElementGuid>609ccc69-d6dd-4e37-85d4-16e96263750d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@autocomplete = 'name']</value>
-      <webElementGuid>359816c6-4da4-43ee-b472-b07296aa3106</webElementGuid>
+      <webElementGuid>8cc76aec-8ba7-4f40-87b5-242299fd125e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,6 +83,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text']</value>
-      <webElementGuid>21318ba8-99f5-428f-8c50-0ec614fe17d8</webElementGuid>
+      <webElementGuid>626cb7cc-3e60-4e60-aa64-52e744f61f06</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

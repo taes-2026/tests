@@ -6,16 +6,16 @@
    <elementGuidId>43d5ee09-738d-4be1-b40e-f249175cb688</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'number']</value>
+         <key>CSS</key>
+         <value>[type=&quot;number&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//*[@type = 'number']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>[type=&quot;number&quot;]</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'number']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>74aa8c06-4a6f-4af1-a737-0276a79ebd4a</webElementGuid>
+      <webElementGuid>b06c6df7-3886-4bf6-98c8-9a330df81cfe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,7 +35,7 @@
       <name>type</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>fe72d62c-dbff-4b66-959c-1476f2d46251</webElementGuid>
+      <webElementGuid>2c535052-cacd-4e15-9b5f-87ce963ae55b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +43,7 @@
       <name>min</name>
       <type>Main</type>
       <value>0.01</value>
-      <webElementGuid>4aebd9c1-38fc-4271-984c-09ef471522fa</webElementGuid>
+      <webElementGuid>8022603a-dfb4-4721-bddf-297e659755d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +51,7 @@
       <name>step</name>
       <type>Main</type>
       <value>0.01</value>
-      <webElementGuid>c213f341-1328-4ab1-9263-423f47b333f3</webElementGuid>
+      <webElementGuid>5efff165-6cc0-42b5-a1ad-20e8c1f2c2ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-a75befad344871faa5c8ac7f82cf527e</value>
-      <webElementGuid>952e490d-9129-4c7b-aad8-2c0940791e97</webElementGuid>
+      <webElementGuid>73aee53a-8a2d-4c59-afbf-3a4dd759438a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,7 +67,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@type = 'number']</value>
-      <webElementGuid>3fdc0001-42b0-40d6-8988-354cb4b70b2e</webElementGuid>
+      <webElementGuid>39ace8f8-cf98-4b92-9471-08b500761c4b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@type = 'number']</value>
-      <webElementGuid>fcc4ea40-4519-4176-a9aa-8720e3a61745</webElementGuid>
+      <webElementGuid>97543745-c37a-4ec8-ad57-bf96a850705f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,6 +83,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'number']</value>
-      <webElementGuid>05998eca-06e7-4b9d-a956-5874486b4ca2</webElementGuid>
+      <webElementGuid>26c2dd73-9f70-427b-b1ba-4eaa492c24a3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
