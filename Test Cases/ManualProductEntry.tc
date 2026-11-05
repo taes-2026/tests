@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validates manual product entry fallback when the device camera is unavailable or the product is not listed</description>
+   <name>ManualProductEntry</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Tiago</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Tiago</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>98b45e4d-82eb-4dc6-aa5b-8c2452e4dc08</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>98b45e4d-82eb-4dc6-aa5b-8c2452e4dc08</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7bfb4bb9-8d74-41f7-ae1f-355358518b3d</testCaseGuid>
+</TestCaseEntity>

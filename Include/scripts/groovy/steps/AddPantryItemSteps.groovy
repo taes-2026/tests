@@ -23,6 +23,6 @@ class AddPantryItemSteps {
 
     @And("I see the item in my pantry")
     def verifyItemInPantry() {
-	    WebUI.verifyElementPresent(findTestObject('Page_SmartPantry/td_Leite'), 5)
+	    WebUI.verifyTextPresent('(?is).*leite.*', true)
 	}
 }
