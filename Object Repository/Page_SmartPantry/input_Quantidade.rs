@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Quantidade</name>
+   <tag></tag>
+   <elementGuidId>43d5ee09-738d-4be1-b40e-f249175cb688</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[type=&quot;number&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@type = 'number']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'number']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>b06c6df7-3886-4bf6-98c8-9a330df81cfe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>number</value>
+      <webElementGuid>2c535052-cacd-4e15-9b5f-87ce963ae55b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>min</name>
+      <type>Main</type>
+      <value>0.01</value>
+      <webElementGuid>8022603a-dfb4-4721-bddf-297e659755d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>step</name>
+      <type>Main</type>
+      <value>0.01</value>
+      <webElementGuid>5efff165-6cc0-42b5-a1ad-20e8c1f2c2ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-a75befad344871faa5c8ac7f82cf527e</value>
+      <webElementGuid>73aee53a-8a2d-4c59-afbf-3a4dd759438a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@type = 'number']</value>
+      <webElementGuid>39ace8f8-cf98-4b92-9471-08b500761c4b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@type = 'number']</value>
+      <webElementGuid>97543745-c37a-4ec8-ad57-bf96a850705f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'number']</value>
+      <webElementGuid>26c2dd73-9f70-427b-b1ba-4eaa492c24a3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

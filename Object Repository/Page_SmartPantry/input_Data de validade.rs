@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Data de validade</name>
+   <tag></tag>
+   <elementGuidId>2f49c1c5-70ad-40a1-b8e1-0c14a795ee13</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[value=&quot;&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@value = '']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'date']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>87efc0d2-444e-4af7-9c48-f17afd10db3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>date</value>
+      <webElementGuid>9d7a7147-8e2c-4486-bf09-055b8cdc23a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-5b7fb5260e2ff98428091c903cd3efee</value>
+      <webElementGuid>76871c76-013c-4ab5-97ba-4eac4e6b4e15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@value = '']</value>
+      <webElementGuid>23b2e183-72b8-454c-b33a-ed099e1d0abf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>min</name>
+      <type>Main</type>
+      <value>2016-11-05</value>
+      <webElementGuid>237bea08-f1b9-4750-900f-eab094d36ffc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>max</name>
+      <type>Main</type>
+      <value>2036-11-05</value>
+      <webElementGuid>8d3864f9-3f1b-4680-898d-7082074eb17e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@value = '']</value>
+      <webElementGuid>1a6d6244-4e34-49b8-b44e-c26016be02fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'date']</value>
+      <webElementGuid>e6e15c47-a594-4a12-b78a-bb047a15d52c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@type = 'date']</value>
+      <webElementGuid>1ae96380-b0f6-46c7-9ce0-ccd2e4adbb57</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

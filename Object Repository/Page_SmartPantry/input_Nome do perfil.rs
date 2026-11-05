@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Nome do perfil</name>
+   <tag></tag>
+   <elementGuidId>c6333f97-2b86-4bf2-9bf9-ce44e00f1e1c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[autocomplete=&quot;name&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@autocomplete = 'name']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>cf667d8b-5cdb-4169-a1df-871bdae72dee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>6dd50d72-aca7-4384-a9ee-9888f96a7b8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>name</value>
+      <webElementGuid>17c08e46-16e4-422d-a5ff-1ccfa59b401f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>80</value>
+      <webElementGuid>e8da016e-d2b8-4639-9b15-3ef60d2bef0a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-ad34d9c587c5f62381190862c411626f</value>
+      <webElementGuid>f7ea715c-db02-413b-bad9-79f30440c8b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@autocomplete = 'name']</value>
+      <webElementGuid>609ccc69-d6dd-4e37-85d4-16e96263750d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@autocomplete = 'name']</value>
+      <webElementGuid>8cc76aec-8ba7-4f40-87b5-242299fd125e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text']</value>
+      <webElementGuid>626cb7cc-3e60-4e60-aa64-52e744f61f06</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
