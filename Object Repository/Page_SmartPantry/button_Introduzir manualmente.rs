@@ -3,8 +3,12 @@
    <description></description>
    <name>button_Introduzir manualmente</name>
    <tag></tag>
-   <elementGuidId>9a8fac6e-fae0-4a72-af5b-e21112bd0d60</elementGuidId>
+   <elementGuidId>62ddf89c-bad3-4539-ba8f-78c5aa628ca5</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.secondary</value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' secondary ')]</value>
@@ -12,10 +16,6 @@
       <entry>
          <key>BASIC</key>
          <value>//*[@type = 'button' and (text() = 'Introduzir manualmente' or . = 'Introduzir manualmente')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>.secondary</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f899834d-d631-4eee-acc2-42077f775811</webElementGuid>
+      <webElementGuid>9c2f6172-6a02-43f4-b967-e91edd19d9d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,7 +35,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>daddb731-bb7c-4d89-9186-fa848f182853</webElementGuid>
+      <webElementGuid>bb4f879d-95a6-47dc-b4ec-86698b9ffe71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +43,7 @@
       <name>class</name>
       <type>Main</type>
       <value>secondary</value>
-      <webElementGuid>e6398316-84fc-461c-8504-e964900ce7d9</webElementGuid>
+      <webElementGuid>c2412e00-0c9e-422f-ac69-38113099576a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -51,7 +51,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Introduzir manualmente</value>
-      <webElementGuid>cabdf044-8af8-4b6e-bfcb-8df7e8c64d4b</webElementGuid>
+      <webElementGuid>604e9d12-04ad-414a-b2d7-f2504c4708f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-b80a291951a6781a0273634fd211a834</value>
-      <webElementGuid>b4883aca-74c4-43e9-9797-4ad8f242c8f3</webElementGuid>
+      <webElementGuid>5ce6e85a-7bb8-40d6-b27a-e9df540d927e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,7 +67,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' secondary ')]</value>
-      <webElementGuid>6623fbb0-8a58-45db-9002-6f16464326a5</webElementGuid>
+      <webElementGuid>1a3350b9-dd16-4e49-832b-e277964cd5b9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' secondary ')]</value>
-      <webElementGuid>bae5c9ec-590f-41c5-b2cc-28b96f1ce747</webElementGuid>
+      <webElementGuid>d8343500-a53d-44aa-a096-e7340da5c24c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,6 +83,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Introduzir manualmente' or . = 'Introduzir manualmente')]</value>
-      <webElementGuid>bcbdb1f6-a755-4fd5-90f6-163b876d084f</webElementGuid>
+      <webElementGuid>d4d4bac0-d6e7-48b3-ac50-bc334bbb00f0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

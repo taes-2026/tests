@@ -40,6 +40,22 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>min</name>
+      <type>Main</type>
+      <value>2016-11-05</value>
+      <webElementGuid>237bea08-f1b9-4750-900f-eab094d36ffc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>max</name>
+      <type>Main</type>
+      <value>2036-11-05</value>
+      <webElementGuid>8d3864f9-3f1b-4680-898d-7082074eb17e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-ef2b29450d1d10368af6cdba612ece59</value>

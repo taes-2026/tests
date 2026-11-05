@@ -24,11 +24,11 @@ class ManualProductEntrySteps {
     }
 
     
-    @And("the product is not listed")
+    @And("the camera is blocked or the product is not listed")
     def productNotListed() {
         WebUI.click(findTestObject('Page_SmartPantry/button_Digitalizar cdigo de barras'))
         // O "Assert Element Present" traduz-se para verifyElementPresent no Katalon
-        WebUI.verifyElementPresent(findTestObject('Page_SmartPantry/p_Produto no encontrado no catlogo 0'), 5)
+        WebUI.verifyElementPresent(findTestObject('Page_SmartPantry/p_Produto no encontrado no catlogo. Introduz o'), 5)
     }
 
    
@@ -42,11 +42,11 @@ class ManualProductEntrySteps {
     def fillProductDetails() {
         WebUI.setText(findTestObject('Page_SmartPantry/input_Nome do produto'), 'teste')
         WebUI.selectOptionByValue(findTestObject('Page_SmartPantry/select_Categoria FrutasLegumesCarnesPeixeLaticn'), 'meat', false)
-        WebUI.setText(findTestObject('Page_SmartPantry/input_Data de validade'), '19-11-2026')
-        WebUI.selectOptionByValue(findTestObject('Page_SmartPantry/select_Unidade Unidade(s)kggLmlEm'), 'g', false)
+        WebUI.setText(findTestObject('Page_SmartPantry/input_Data de validade'), '2026-11-19')
+        WebUI.selectOptionByValue(findTestObject('Page_SmartPantry/select_Unidade Unidade(s)kggLmlEmbalagem'), 'g', false)
         
       
-        WebUI.click(findTestObject('Page_SmartPantry/button_Entrar'))
+        WebUI.click(findTestObject('Page_SmartPantry/button_Guardar'))
         
        
         WebUI.closeBrowser()

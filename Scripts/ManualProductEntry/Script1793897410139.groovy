@@ -40,13 +40,11 @@ WebUI.setText(findTestObject('Page_SmartPantry/input_Nome do produto'), 'teste')
 
 WebUI.selectOptionByValue(findTestObject('Page_SmartPantry/select_Categoria FrutasLegumesCarnesPeixeLaticn'), 'meat', false)
 
-WebUI.setText(findTestObject('Page_SmartPantry/input_Data de validade'), '19-11-2026')
+WebUI.setText(findTestObject('Page_SmartPantry/input_Data de validade'), '2026-11-19')
 
 WebUI.selectOptionByValue(findTestObject('Page_SmartPantry/select_Unidade Unidade(s)kggLmlEmbalagem'), 'g', false)
 
-WebUI.click(findTestObject('Page_SmartPantry/button_Entrar'))
-
-WebUI.click(findTestObject('Page_SmartPantry/button_Introduzir manualmente'))
+WebUI.click(findTestObject('Page_SmartPantry/button_Guardar'))
 
 WebUI.closeBrowser()
 
