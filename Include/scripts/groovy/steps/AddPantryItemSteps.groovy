@@ -41,7 +41,7 @@ class AddPantryItemSteps {
 
     @And("I save the item")
     def saveItem() {
-        WebUI.click(findTestObject('Page_SmartPantry/button_Comear'))
+        WebUI.click(findTestObject('Page_SmartPantry/button_Guardar'))
     }
 
     @And("I see the item in my pantry")
@@ -49,8 +49,4 @@ class AddPantryItemSteps {
 	    WebUI.verifyTextPresent('(?is).*leite.*', true)
 	}
 
-    @Then("I close the browser")
-    def closeBrowser() {
-        WebUI.closeBrowser()
-    }
 }
