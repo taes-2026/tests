@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Glten</name>
+   <tag></tag>
+   <elementGuidId>374e35ed-56a1-4463-835c-757a525a9d56</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>fieldset:nth-child(4) .check:nth-child(2)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[(name() = 'fieldset') and (position() = 4)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' check ') and (position() = 2)]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Glúten&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>96c5c441-af06-4e71-b72a-7dc05de51e75</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>check</value>
+      <webElementGuid>82f6260e-888b-4e80-8930-7c3aacab6776</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Glúten</value>
+      <webElementGuid>3b73ce14-edcf-42b0-9640-8bda32cf6e28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-a3bfa9c488ccfc6f22878c5ed4ac4519</value>
+      <webElementGuid>ab2640f7-996d-4d7e-904f-3d6e57e0b107</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[(name() = 'fieldset') and (position() = 4)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' check ') and (position() = 2)]</value>
+      <webElementGuid>4b03a7e4-baa9-4ab9-b6d0-7002579f37b2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[(name() = 'fieldset') and (position() = 4)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' check ') and (position() = 2)]</value>
+      <webElementGuid>818fb844-61e5-4bab-a8be-4baa7cc384e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = ' Glúten' or . = ' Glúten')]</value>
+      <webElementGuid>0eb4b39b-d629-4872-8c02-431aecdda6d0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

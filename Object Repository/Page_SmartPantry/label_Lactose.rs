@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Lactose</name>
+   <tag></tag>
+   <elementGuidId>c59ad308-5f64-4eb9-bcb2-e8681978eacb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>fieldset:nth-child(3) .check:nth-child(2)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[(name() = 'fieldset') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' check ') and (position() = 2)]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Lactose&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>89cac237-f1e9-483c-a9c2-d6c4efe458bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>check</value>
+      <webElementGuid>e4714090-cfc1-4201-83bd-7d7618d24cb4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Lactose</value>
+      <webElementGuid>b278388a-510c-49a5-b44a-654ef883d5a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-0657fad1276b3953f27ca796a0caf26f</value>
+      <webElementGuid>c291cff9-d611-4c34-8ec6-e306130a31a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[(name() = 'fieldset') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' check ') and (position() = 2)]</value>
+      <webElementGuid>7acb3ea7-633a-4293-8bbf-0e178fb8323a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[(name() = 'fieldset') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' check ') and (position() = 2)]</value>
+      <webElementGuid>b28602e6-46d6-488e-b1e1-2c2d1768fd79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = ' Lactose' or . = ' Lactose')]</value>
+      <webElementGuid>4406fa82-2dec-47c7-bb0c-45c4b3387a98</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
