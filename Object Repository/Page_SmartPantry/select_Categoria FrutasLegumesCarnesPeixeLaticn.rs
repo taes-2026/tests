@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>5bdde8b4-a844-4fbe-a54c-b91f08bae8e3</webElementGuid>
+      <webElementGuid>51d80fff-e548-40ac-8425-08e4f080d8ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,7 +35,7 @@
       <name>text</name>
       <type>Main</type>
       <value>FrutasLegumesCarnesPeixeLaticíniosMerceariaBebidasCongeladosOutros</value>
-      <webElementGuid>c59a876c-971e-45c1-9e19-b63a40d96c4f</webElementGuid>
+      <webElementGuid>8b3825f4-a41f-4bba-aab1-e047f98bc1c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +43,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-a94b57530dbba72bd691a8e97b882860</value>
-      <webElementGuid>7e89c03f-b2b4-43cb-9b23-48d1c13601f9</webElementGuid>
+      <webElementGuid>21dbd76f-0e2c-486b-8500-a25bf4371215</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +51,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[(name() = 'label') and (position() = 2)]//select</value>
-      <webElementGuid>77ce1fb2-2c34-445c-a965-42c6da38335b</webElementGuid>
+      <webElementGuid>d66bd678-db1f-435e-a552-7803090d6c10</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[(name() = 'label') and (position() = 2)]//select</value>
-      <webElementGuid>ba1da555-8277-453b-8c3d-e712d7384619</webElementGuid>
+      <webElementGuid>4cdc941b-f475-4c02-a2a2-3881ded3c863</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,6 +67,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[(text() = 'FrutasLegumesCarnesPeixeLaticíniosMerceariaBebidasCongeladosOutros' or . = 'FrutasLegumesCarnesPeixeLaticíniosMerceariaBebidasCongeladosOutros')]</value>
-      <webElementGuid>6437d0ba-250d-42d8-8365-e982b2825f08</webElementGuid>
+      <webElementGuid>35a71e5a-8a1d-47f7-a9fc-11c7beabac62</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>b06c6df7-3886-4bf6-98c8-9a330df81cfe</webElementGuid>
+      <webElementGuid>2b8780d6-8e9e-47ea-bb31-fb62b473c1e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,7 +35,7 @@
       <name>type</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>2c535052-cacd-4e15-9b5f-87ce963ae55b</webElementGuid>
+      <webElementGuid>047a4728-6a68-4446-9451-e6b86ec87e0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +43,7 @@
       <name>min</name>
       <type>Main</type>
       <value>0.01</value>
-      <webElementGuid>8022603a-dfb4-4721-bddf-297e659755d0</webElementGuid>
+      <webElementGuid>e6341e53-5e0a-4470-8fc3-e1fcc3e7a7f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +51,7 @@
       <name>step</name>
       <type>Main</type>
       <value>0.01</value>
-      <webElementGuid>5efff165-6cc0-42b5-a1ad-20e8c1f2c2ac</webElementGuid>
+      <webElementGuid>9bf7a43d-0f34-4515-b99f-75315f733966</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-a75befad344871faa5c8ac7f82cf527e</value>
-      <webElementGuid>73aee53a-8a2d-4c59-afbf-3a4dd759438a</webElementGuid>
+      <webElementGuid>e94db5b9-4ac1-42dd-9148-42916f56c928</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,7 +67,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@type = 'number']</value>
-      <webElementGuid>39ace8f8-cf98-4b92-9471-08b500761c4b</webElementGuid>
+      <webElementGuid>21e088fb-16a6-4c2f-8ac0-f58c0692515d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@type = 'number']</value>
-      <webElementGuid>97543745-c37a-4ec8-ad57-bf96a850705f</webElementGuid>
+      <webElementGuid>aa1dd299-b704-4093-ab43-b5f4e1273f8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,6 +83,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'number']</value>
-      <webElementGuid>26c2dd73-9f70-427b-b1ba-4eaa492c24a3</webElementGuid>
+      <webElementGuid>c6b673a3-6721-441f-8713-0c248ca0abb0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
