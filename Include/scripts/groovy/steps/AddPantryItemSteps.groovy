@@ -13,16 +13,8 @@ import io.cucumber.java.en.When
 
 class AddPantryItemSteps {
 
-    @And("I fill the item details")
-    def fillItemDetails() {
-        WebUI.setText(findTestObject('Page_SmartPantry/input_Nome do produto'), 'leite')
-        WebUI.selectOptionByValue(findTestObject('Page_SmartPantry/select_Categoria FrutasLegumesCarnesPeixeLaticn'), 'dairy', false)
-        WebUI.setText(findTestObject('Page_SmartPantry/input_Quantidade'), '2')
-        WebUI.setText(findTestObject('Page_SmartPantry/input_Data de validade'), '2026-11-19')
-    }
-
     @And("I see the item in my pantry")
     def verifyItemInPantry() {
-	    WebUI.verifyTextPresent('(?is).*leite.*', true)
+	    WebUI.verifyTextPresent('(?is).*Milk.*', true)
 	}
 }
