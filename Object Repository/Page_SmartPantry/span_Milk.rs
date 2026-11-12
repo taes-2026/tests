@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Milk</name>
+   <tag></tag>
+   <elementGuidId>ddc3ea2f-f86f-4afb-ab15-d6c7880a75ae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[normalize-space(.)='${item}']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.name</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>dc2de5f6-77af-4e06-be7e-bfee9195bb06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>name</value>
+      <webElementGuid>3d8ad182-6b66-4acc-9fda-321768245b38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Milk</value>
+      <webElementGuid>c5a1b042-44bd-4014-96ed-221b9b737e26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-3dcf1a66ac3c965371808f9fe18ee070</value>
+      <webElementGuid>dc6e97dd-0c5c-4474-9913-0de82e1a808f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' name ')]</value>
+      <webElementGuid>587a78ed-e854-4e07-945a-8548529ee44d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' name ')]</value>
+      <webElementGuid>b210e8ca-2a8e-4010-a578-de605e245fe2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Milk' or . = 'Milk')]</value>
+      <webElementGuid>bf6a7567-1574-46e4-bc9f-7313ad969542</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

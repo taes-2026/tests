@@ -1,10 +1,9 @@
-@tag
+@SMAR-19
 Feature: SMAR-19 Check expiring items
   As a user 
   I want to be warned about food that is close to expiring 
   So that I can avoid food waste
 
-  @tag1
    Scenario: Item expiring tomorrow appears in the expiring alerts
     Given I start the application in the "http://localhost:5173/" url
     When I tap the adicionar produto button

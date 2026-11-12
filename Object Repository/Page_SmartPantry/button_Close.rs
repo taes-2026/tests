@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Close</name>
+   <tag></tag>
+   <elementGuidId>3de357eb-dbcc-45d3-9b67-1e61f7182f9c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@aria-label = 'Close']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[aria-label=&quot;Close&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6bfce5af-b107-4590-8458-5a5cd5dd97f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>close-btn</value>
+      <webElementGuid>dea2f097-aacc-4cc7-a752-e7a2852ba794</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Close</value>
+      <webElementGuid>e24a5ccb-fb05-458e-b029-0a7b5ac892f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>×</value>
+      <webElementGuid>2cac4d71-e5ed-4302-8f45-19e6f510b25c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-abf3fb7fb46902f8de2f148c55c18772</value>
+      <webElementGuid>dd01dc00-5a3b-480b-a15e-70f68d37d90b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@aria-label = 'Close']</value>
+      <webElementGuid>897ed88d-b215-4c40-ae74-38a3ad6da083</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@aria-label = 'Close']</value>
+      <webElementGuid>a5a9f1b2-2a68-4a94-be87-81060af8308f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = '×' or . = '×')]</value>
+      <webElementGuid>7b2114bf-48ab-4052-a170-e95551215957</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
