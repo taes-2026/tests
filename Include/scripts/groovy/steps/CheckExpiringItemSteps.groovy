@@ -12,14 +12,14 @@ import io.cucumber.java.en.Then
 
 
 class ExpiringItemsSteps {
-
-    @And("I fill the item details with {string} expiring in {int} days")
-    def fillItemExpiringTomorrow(String item, int days) {
-        WebUI.setText(findTestObject('Page_SmartPantry/input_Nome do produto'), item)
-        WebUI.selectOptionByValue(findTestObject('Page_SmartPantry/select_Categoria FrutasLegumesCarnesPeixeLaticn'), 'fruits', false)
-        WebUI.setText(findTestObject('Page_SmartPantry/input_Quantidade'), '1')
-        WebUI.setText(findTestObject('Page_SmartPantry/input_Data de validade'), LocalDate.now().plusDays(days).toString())
-    }
+	
+	@And("I fill the item details with {string} expiring in {int} days")
+	def fillItems(String item, int days) {
+		WebUI.setText(findTestObject('Page_SmartPantry/input_Nome do produto'), item)
+		WebUI.selectOptionByValue(findTestObject('Page_SmartPantry/select_Categoria FrutasLegumesCarnesPeixeLaticn'), 'fruits', false)
+		WebUI.setText(findTestObject('Page_SmartPantry/input_Quantidade'), '1')
+		WebUI.setText(findTestObject('Page_SmartPantry/input_Data de validade'), LocalDate.now().plusDays(days).toString())
+	}
 
     @Then("I see {string} in the expiring alerts")
     def verifyInExpiringAlerts(String item) {

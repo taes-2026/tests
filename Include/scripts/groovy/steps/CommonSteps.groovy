@@ -17,6 +17,8 @@ import com.kms.katalon.core.testobject.ObjectRepository
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import java.time.LocalDate
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import internal.GlobalVariable
 
@@ -58,11 +60,34 @@ class CommonSteps {
     def tapAdicionarProduto() {
         WebUI.click(findTestObject('Page_SmartPantry/button_Adicionar produto'))
     }
+	
+	@And("I fill the item details with {string}")
+	def fillItems(String item) {
+		WebUI.setText(findTestObject('Page_SmartPantry/input_Nome do produto'), item)
+		WebUI.selectOptionByValue(findTestObject('Page_SmartPantry/select_Categoria FrutasLegumesCarnesPeixeLaticn'), 'fruits', false)
+		WebUI.setText(findTestObject('Page_SmartPantry/input_Quantidade'), '1')
+		WebUI.setText(findTestObject('Page_SmartPantry/input_Data de validade'), LocalDate.now().plusDays(5).toString())
+	}
 
     @And("I tap introduzir manualmente button")
     def tapIntroduzirManualmente() {
         WebUI.click(findTestObject('Page_SmartPantry/button_Introduzir manualmente'))
     }
+	
+	@When("I tap the Procurar receitas button")
+	def I_tap_the_Procurar_receitas_button(){
+		WebUI.click(findTestObject('Page_SmartPantry/button_Procurar receitas'))
+	}
+	
+	@And("I tap selecionar items button")
+	def I_tap_selecionar_items_button(){
+		WebUI.click(findTestObject('Page_SmartPantry/button_Select items'))
+	}
+	
+	@And("I tap usar ingredientes button")
+	def I_tap_usar_ingredientes_button(){
+		WebUI.click(findTestObject('Page_SmartPantry/button_Use_ingredient'))
+	}
 
     @And("I save the item")
     def saveItem() {
