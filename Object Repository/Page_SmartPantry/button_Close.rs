@@ -6,6 +6,10 @@
    <elementGuidId>3de357eb-dbcc-45d3-9b67-1e61f7182f9c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '×' or . = '×')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//*[@aria-label = 'Close']</value>
       </entry>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6bfce5af-b107-4590-8458-5a5cd5dd97f9</webElementGuid>
+      <webElementGuid>46d6bbcb-91d3-4d0c-8f1b-880ad7d2dd6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>close-btn</value>
-      <webElementGuid>dea2f097-aacc-4cc7-a752-e7a2852ba794</webElementGuid>
+      <webElementGuid>f0ce3c9d-f7b9-4834-929e-19917fc2e749</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +43,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Close</value>
-      <webElementGuid>e24a5ccb-fb05-458e-b029-0a7b5ac892f5</webElementGuid>
+      <webElementGuid>4fbb7f05-eff0-43f0-b2e3-c602865164b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +51,7 @@
       <name>text</name>
       <type>Main</type>
       <value>×</value>
-      <webElementGuid>2cac4d71-e5ed-4302-8f45-19e6f510b25c</webElementGuid>
+      <webElementGuid>aa07bfd0-9140-466c-920f-f8bc3174cfd5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +59,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-abf3fb7fb46902f8de2f148c55c18772</value>
-      <webElementGuid>dd01dc00-5a3b-480b-a15e-70f68d37d90b</webElementGuid>
+      <webElementGuid>d10edac0-f488-4e3b-ab78-7f1e269b6c44</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +67,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@aria-label = 'Close']</value>
-      <webElementGuid>897ed88d-b215-4c40-ae74-38a3ad6da083</webElementGuid>
+      <webElementGuid>a99cfc61-8220-4d20-a1cc-ffa5a78608b5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +75,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@aria-label = 'Close']</value>
-      <webElementGuid>a5a9f1b2-2a68-4a94-be87-81060af8308f</webElementGuid>
+      <webElementGuid>91a145a8-fc74-448d-be8c-9881a6d47ed8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,6 +83,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = '×' or . = '×')]</value>
-      <webElementGuid>7b2114bf-48ab-4052-a170-e95551215957</webElementGuid>
+      <webElementGuid>b2fb5067-1373-4a80-950b-2de9f9c3c381</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
