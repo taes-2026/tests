@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Pesquisar receitas</name>
+   <tag></tag>
+   <elementGuidId>b20acbff-2348-49ac-a77d-6e22eaf380d0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[normalize-space() = &apos;Pesquisar&apos;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn-submit[type=&apos;submit&apos;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>cdcc4517-b5ae-4c13-ab23-20a5a76c5308</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-submit</value>
+      <webElementGuid>4f118d2b-b2d0-4374-980b-d532a8a19592</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>570041cd-8f8c-4c73-8760-c955aa792846</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pesquisar</value>
+      <webElementGuid>7ed1079e-060e-4d8a-87ed-e78d5a5ca158</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[normalize-space() = &apos;Pesquisar&apos;]</value>
+      <webElementGuid>ad9a6204-b720-469a-8bab-3b76d09606ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[normalize-space() = &apos;Pesquisar&apos;]</value>
+      <webElementGuid>d2a3bb40-205c-427f-817b-78a601c74f9c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
