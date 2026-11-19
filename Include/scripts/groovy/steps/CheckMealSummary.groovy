@@ -23,8 +23,11 @@ class CheckMealSummary {
 
     @Then('I see the meal summary for {string}')
     def seeMealSummaryFor(String title) {
-        WebUI.verifyElementVisible(testObject('section_Resumo da refeicao'), 10)
-        WebUI.verifyElementVisible(recipeName(title), 10)
+        WebUI.waitForElementVisible(testObject('section_Resumo da refeicao'), 10)
+        WebUI.verifyElementVisible(testObject('section_Resumo da refeicao'))
+
+        WebUI.waitForElementVisible(recipeName(title), 10)
+        WebUI.verifyElementVisible(recipeName(title))
         WebUI.verifyElementPresent(testObject('li_Ingrediente do resumo'), 10)
         WebUI.verifyElementPresent(testObject('table_Informacao nutricional'), 10)
     }

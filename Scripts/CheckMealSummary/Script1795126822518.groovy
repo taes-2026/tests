@@ -46,9 +46,13 @@ WebUI.click(findTestObject('Page_SmartPantry/button_Ver resumo da refeicao'))
 
 WebUI.waitForElementVisible(findTestObject('Page_SmartPantry/div_Resumo da refeicao modal'), 10)
 
-WebUI.verifyElementVisible(findTestObject('Page_SmartPantry/section_Resumo da refeicao'), 10)
+WebUI.waitForElementVisible(findTestObject('Page_SmartPantry/section_Resumo da refeicao'), 10)
 
-WebUI.verifyElementVisible(findTestObject('Page_SmartPantry/p_Recipe name in summary', [('title'): 'Red Kidney Bean Jambalaya']), 10)
+WebUI.verifyElementVisible(findTestObject('Page_SmartPantry/section_Resumo da refeicao'))
+
+WebUI.waitForElementVisible(findTestObject('Page_SmartPantry/p_Recipe name in summary', [('title'): 'Red Kidney Bean Jambalaya']), 10)
+
+WebUI.verifyElementVisible(findTestObject('Page_SmartPantry/p_Recipe name in summary', [('title'): 'Red Kidney Bean Jambalaya']))
 
 WebUI.verifyElementPresent(findTestObject('Page_SmartPantry/li_Ingrediente do resumo'), 10)
 
