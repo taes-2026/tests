@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' recipe-card ') and (position() = 1)]</value>
+         <value>(//article[contains(@class,'recipe-card')])[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>article</value>
-      <webElementGuid>b679f9e3-26bb-490d-9cbb-f00d78b1292d</webElementGuid>
+      <webElementGuid>aaf7da65-d371-411e-9a15-f250a9a7c03f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>recipe-card</value>
-      <webElementGuid>24281d4f-cf97-4915-974f-8f6390c7c044</webElementGuid>
+      <webElementGuid>aff62a32-e551-46b6-895a-785550efbffa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ecbee7f3-1fc1-4024-8944-d3b33d60437a</webElementGuid>
+      <webElementGuid>60f5a8ff-f345-4729-8cf8-bcff09efc5dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>c06a5368-38d1-46b9-ae53-7ce15fed7a3f</webElementGuid>
+      <webElementGuid>3f30b4a5-76a5-4afa-90fe-f8a88dd603d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
   
 
 Leche Flan (Caramel Flan)</value>
-      <webElementGuid>e8fa4650-2362-4f17-88e9-800d16f3e0aa</webElementGuid>
+      <webElementGuid>f90f4ef5-5ace-48a2-a580-c83cf67704e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@ Leche Flan (Caramel Flan)</value>
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-a15f437a489cf2c446b7902aec8653a6</value>
-      <webElementGuid>c2bee76c-0ba2-40d9-8b8a-965782ad1cd9</webElementGuid>
+      <webElementGuid>4d1845d6-9ef8-41ec-a8b5-3d773521c2c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@ Leche Flan (Caramel Flan)</value>
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' recipe-card ') and (position() = 1)]</value>
-      <webElementGuid>bcb306e7-1e65-42d5-a72f-bd0dd6349e4a</webElementGuid>
+      <webElementGuid>aa66159d-2041-4cba-aa63-7227331877be</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@ Leche Flan (Caramel Flan)</value>
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' recipe-card ') and (position() = 1)]</value>
-      <webElementGuid>bca62443-a8b5-4926-9176-07c8e0b1c30e</webElementGuid>
+      <webElementGuid>39395f8a-21f4-49bf-a367-b50d7edac908</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,6 +96,6 @@ Leche Flan (Caramel Flan)' or . = '
   
 
 Leche Flan (Caramel Flan)')]</value>
-      <webElementGuid>47976453-e6d6-4488-be81-05f487430e9b</webElementGuid>
+      <webElementGuid>aa2e0136-0fae-4c5d-8a65-186c95e10bce</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
