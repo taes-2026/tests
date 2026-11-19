@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Runs the SMAR-58 finished-timer alert BDD feature.</description>
+   <name>RunSMAR58Feature</name>
+   <tag>GenAI</tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Bruno</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Bruno</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>c84d8c36-be5a-45b8-821d-279310caf298</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>c84d8c36-be5a-45b8-821d-279310caf298</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e1cd5e59-0f82-4bd7-b07f-053248b0cd41</testCaseGuid>
+</TestCaseEntity>
