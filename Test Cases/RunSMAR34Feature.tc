@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Runs the SMAR-34 cook book (saved recipes and collections) BDD feature.</description>
+   <name>RunSMAR34Feature</name>
+   <tag>GenAI</tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Bruno</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Bruno</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>c84d8c36-be5a-45b8-821d-279310caf298</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>c84d8c36-be5a-45b8-821d-279310caf298</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6c4506ee-b860-43fe-ad71-41eb2e284d27</testCaseGuid>
+</TestCaseEntity>
