@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Voltar_1</name>
+   <tag></tag>
+   <elementGuidId>fcb9063e-7adc-4ad4-b8a3-ffce5512ec39</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' back-link ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.back-link</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>81fb724a-b524-4883-a3a0-1d3c9898bcef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/dashboard</value>
+      <webElementGuid>fe8a0415-0e52-4ca9-a61e-782efa8fc8f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>back-link</value>
+      <webElementGuid>66a57355-1d4e-419d-b329-51480cccae12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Voltar</value>
+      <webElementGuid>cfcfdd69-9115-43c3-9284-3b82532eff2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-2395fd28c966256fd8d5379497cb1013</value>
+      <webElementGuid>dbcd9557-e64c-4108-b9b6-34a4c9e6f95c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' back-link ')]</value>
+      <webElementGuid>bae5a31d-db9f-4c4d-a37a-f3020ec26a34</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' back-link ')]</value>
+      <webElementGuid>a4bf00a5-1709-4854-b685-7179233fa3dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/dashboard' and (text() = 'Voltar' or . = 'Voltar')]</value>
+      <webElementGuid>9d5029ab-4b45-4247-b2a2-839d958b9ddc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
