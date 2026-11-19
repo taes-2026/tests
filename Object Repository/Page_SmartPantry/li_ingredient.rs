@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_ingredient</name>
+   <tag></tag>
+   <elementGuidId>fdbabb34-5369-406c-93ce-0aedbc4b4c28</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[contains(concat(' ', normalize-space(@class), ' '), ' ingredients ')]//li[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '${item}')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.ingredients</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ul</value>
+      <webElementGuid>1b23e2ba-81e3-4ea6-928c-846b8bb40dc5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ingredients</value>
+      <webElementGuid>3d8a95e0-5450-4730-b2c8-2a556335e46d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>6 carrots4 oranges2 inch fresh ginger (use less if you want a more subtle ginger flavor)1 tsp of ground turmeric (or 2 inches of fresh turmeric)Honey, to taste</value>
+      <webElementGuid>d961ab70-b37e-4709-8bda-b38a31068b09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-306a526c126607d4f7dcca0e765316db</value>
+      <webElementGuid>5874797d-7cd0-4d39-a52c-7b85aab3e60d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' ingredients ')]</value>
+      <webElementGuid>dedbfa35-61e2-4331-953c-7788c7239910</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

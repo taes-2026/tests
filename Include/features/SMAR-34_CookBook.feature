@@ -7,7 +7,7 @@ Feature: SMAR-34 Cook book with saved recipes and collections
 
   Scenario: The saved recipes page starts empty
     Given I start the application in the "http://localhost:5173/" url
-    When I tap the Receitas guardadas button
+    When I tap the Receitas guardadas button on the dashboard
     Then I see an empty saved recipes list
     And I close the browser
 

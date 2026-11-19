@@ -73,7 +73,7 @@ class CookBook {
         WebUI.waitForElementVisible(testObject('div_Modal colecoes'), 15)
     }
 
-    @When("I tap the Receitas guardadas button")
+    @When("I tap the Receitas guardadas button on the dashboard")
     def tapSavedRecipesButton() {
         WebUI.click(testObject('button_Receitas guardadas do dashboard'))
         WebUI.waitForElementPresent(testObject('h2_Receitas guardadas'), 15)
