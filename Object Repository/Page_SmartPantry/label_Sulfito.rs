@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Sulfito</name>
+   <tag></tag>
+   <elementGuidId>a1f1fe6a-4b06-4c4c-8fb8-6e1463fd1d4b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' check ') and (position() = 11)]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.check:nth-child(11)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>ac91d323-8c45-4c20-9699-790041bb8e46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>check</value>
+      <webElementGuid>db89d5ff-bf2f-43de-8af0-8326f02135d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Sulfito</value>
+      <webElementGuid>3bafe1c7-9f7c-4078-bd31-a4d16095b23c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-65ef5f0d829d17b0675a53d4682e5928</value>
+      <webElementGuid>d0b7d953-7c2d-4009-8e10-bc64993968f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' check ') and (position() = 11)]</value>
+      <webElementGuid>9e9110ee-7edb-4d7f-a511-5d0b811150a0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' check ') and (position() = 11)]</value>
+      <webElementGuid>44e627e1-14ec-48c7-9a05-748120d0c706</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = ' Sulfito' or . = ' Sulfito')]</value>
+      <webElementGuid>a7f5fdf3-7f76-4f98-919d-e59cb4e97a6c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
