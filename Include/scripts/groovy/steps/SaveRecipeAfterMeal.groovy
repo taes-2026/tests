@@ -37,7 +37,8 @@ class SaveRecipeAfterMeal {
 
     @Then('I see the recipe saved confirmation')
     def seeRecipeSavedConfirmation() {
-        WebUI.verifyElementVisible(testObject('p_Receita guardada'), 10)
+        WebUI.waitForElementVisible(testObject('p_Receita guardada'), 10)
+        WebUI.verifyElementVisible(testObject('p_Receita guardada'))
         WebUI.verifyElementNotPresent(testObject('button_Guardar receita'), 5)
         WebUI.verifyElementClickable(testObject('button_Concluir'))
     }
