@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Runs the SMAR-57 cook-mode step timer BDD feature.</description>
+   <name>RunSMAR57Feature</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>65c9959a-11ad-40f9-90f1-7701df306252</testCaseGuid>
+</TestCaseEntity>
