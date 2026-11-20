@@ -6,12 +6,12 @@
    <elementGuidId>6ae5a1ab-114b-4024-8a10-a428664a9377</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[normalize-space() = &apos;Ver resumo da refeição&apos;]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>.summary-btn</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[contains(normalize-space(.), 'Resumo da refei')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>5dcd17ee-7cae-4481-9f2f-5fa60bd10df9</webElementGuid>
+      <webElementGuid>79284b02-dd3a-457b-9359-7939b7cd3ff3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,14 +31,14 @@
       <name>text</name>
       <type>Main</type>
       <value>Ver resumo da refeição</value>
-      <webElementGuid>ac130147-063f-4b96-8774-f096bf9b456d</webElementGuid>
+      <webElementGuid>fd9c70a7-4a2a-4d3a-a60c-9b7c92f2960f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[normalize-space() = &apos;Ver resumo da refeição&apos;]</value>
-      <webElementGuid>6ae5a1ab-114b-4024-8a10-a428664a9378</webElementGuid>
+      <value>//button[normalize-space() = 'Ver resumo da refeição']</value>
+      <webElementGuid>85938c2d-d71d-4640-b025-ecec42b4fb2b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

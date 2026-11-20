@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>.add</value>
+         <value>.add:nth-child(1)</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' add ')]</value>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' add ') and (position() = 1)]</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>8861e2c6-b66a-47c7-8cb7-a7750b02e3bb</webElementGuid>
+      <webElementGuid>00efae82-08e2-48ba-87d8-81e09941bf8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>add</value>
-      <webElementGuid>cceb06b2-54cb-4897-b5fa-561864301102</webElementGuid>
+      <webElementGuid>981b3b6f-c6cd-4b62-8989-e92b129f08e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,31 +43,31 @@
       <name>text</name>
       <type>Main</type>
       <value>Adicionar produto</value>
-      <webElementGuid>d330158d-7e47-46d8-8994-3695557631d9</webElementGuid>
+      <webElementGuid>f115e70e-3fd5-4b38-a8e6-d2c874d32997</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-4e5c4369e9c790603ef00015e25af410</value>
-      <webElementGuid>8bb9d7d0-453e-42aa-bdf2-a28835091239</webElementGuid>
+      <value>md5.v1-049ee8354569c079f665a1a9c5f46e29</value>
+      <webElementGuid>2a27846c-a2b1-4046-90e7-2e442fd76a19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' add ')]</value>
-      <webElementGuid>70f4407c-bd58-4381-b86e-078c83fc5cc6</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' add ') and (position() = 1)]</value>
+      <webElementGuid>81c5a9dd-1add-45f1-b5e8-1872247332e9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' add ')]</value>
-      <webElementGuid>9f6ecc65-eac3-4d3d-a28a-3eb8dad2c240</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' add ') and (position() = 1)]</value>
+      <webElementGuid>d907993b-ff34-4614-acc7-90e38b961ce3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +75,14 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Adicionar produto' or . = 'Adicionar produto')]</value>
-      <webElementGuid>ff9b34a6-0a8f-4347-a799-a7a66f3c5b0e</webElementGuid>
+      <webElementGuid>2d5b51b0-eb8f-41d6-85ae-aff0dee1dafb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' add ')]</value>
+      <webElementGuid>9f6ecc65-eac3-4d3d-a28a-3eb8dad2c240</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

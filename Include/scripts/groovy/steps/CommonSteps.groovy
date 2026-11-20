@@ -61,6 +61,11 @@ class CommonSteps {
         WebUI.click(findTestObject('Page_SmartPantry/button_Adicionar produto'))
     }
 	
+	@When("I tap the Começar a cozinhar button")
+	def tapStartCookingButton() {
+		WebUI.click(findTestObject('Page_SmartPantry/button_Comear a cozinhar'))
+	}
+	
 	@And("I fill the item details with {string}")
 	def fillItems(String item) {
 		WebUI.setText(findTestObject('Page_SmartPantry/input_Nome do produto'), item)

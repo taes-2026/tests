@@ -6,16 +6,16 @@
    <elementGuidId>baa1c3c5-8d7d-4bd0-8c1a-f4c15625f8dc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Procurar receitas' or . = 'Procurar receitas')]</value>
+         <key>CSS</key>
+         <value>.recipe:nth-child(3)</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' recipe ') and (position() = 3)]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>.recipe:nth-child(3)</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Procurar receitas' or . = 'Procurar receitas')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>677a48ba-4495-4091-882c-026f30734790</webElementGuid>
+      <webElementGuid>cbec1817-f56d-4bf8-b043-bfdb8cdba43a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>recipe</value>
-      <webElementGuid>311eac4b-a408-426c-9431-c057bb2bbafc</webElementGuid>
+      <webElementGuid>eeddbc08-1cb9-4c56-9138-30445ae3fd0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,7 +43,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Procurar receitas</value>
-      <webElementGuid>8bbc1f88-60f7-4a2d-a8e3-eba359f37463</webElementGuid>
+      <webElementGuid>f7aa0c25-504e-4a41-88c9-31afca4cdfaa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +51,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-b236fe5ee3a7a3b3ed97b09c38f85430</value>
-      <webElementGuid>6d00ed0e-d89c-4151-86cc-01b68761b506</webElementGuid>
+      <webElementGuid>086a2e6b-2b68-4f5a-8ac4-9fd4ff118e33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' recipe ') and (position() = 3)]</value>
-      <webElementGuid>2779fbfd-4dc6-4ddb-80d1-7c8b97645187</webElementGuid>
+      <webElementGuid>6649dbc1-7fd1-4ba8-b249-bf1ef85afd73</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,7 +67,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' recipe ') and (position() = 3)]</value>
-      <webElementGuid>5ada8ff5-b86e-4dca-b0b8-286da84b260b</webElementGuid>
+      <webElementGuid>749dd8da-aaf8-4710-b004-e2be758e3a25</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +75,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Procurar receitas' or . = 'Procurar receitas')]</value>
-      <webElementGuid>00577fc5-253d-4d8e-a130-e60efe3e1d4b</webElementGuid>
+      <webElementGuid>3c48c6fe-5f16-4127-ad94-8e6e72c8b65a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

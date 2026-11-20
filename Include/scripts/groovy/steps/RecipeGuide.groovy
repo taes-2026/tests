@@ -32,12 +32,6 @@ class RecipeGuide {
         WebUI.waitForElementPresent(testObject('button_Comear a cozinhar'), 20)
     }
 
-    @When("I tap the Começar a cozinhar button")
-    def tapStartCookingButton() {
-        WebUI.click(testObject('button_Comear a cozinhar'))
-        WebUI.waitForElementVisible(testObject('div_Modo cozinha'), 10)
-    }
-
     @Then("I see the cooking guide on step {int}")
     def seeCookingGuideOnStep(int number) {
         WebUI.verifyElementVisible(testObject('div_Modo cozinha'))

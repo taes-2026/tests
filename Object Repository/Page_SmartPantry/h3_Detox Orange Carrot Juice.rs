@@ -6,12 +6,16 @@
    <elementGuidId>a1522210-55a7-4720-bb13-bd50b1573c4a</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>.recipe-card:nth-child(1) h3</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' recipe-card ') and (position() = 1)]//h3</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>.recipe-card:nth-child(1) h3</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Detox Orange Carrot Juice' or . = 'Detox Orange Carrot Juice')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h3</value>
-      <webElementGuid>2e6b3faa-3feb-4eeb-89c5-5f7f4b9ee389</webElementGuid>
+      <webElementGuid>2d4302c1-2e72-429c-9383-d685c4d004ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +35,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Detox Orange Carrot Juice</value>
-      <webElementGuid>3a48b486-c611-404e-9e0c-6e731cf4728a</webElementGuid>
+      <webElementGuid>b1305b4a-46d6-443b-b566-9ed271d7cd0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +43,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-45ef8ab710d55fd75652e92102d3d609</value>
-      <webElementGuid>c70e06d9-626b-4548-a156-4c0273299f6b</webElementGuid>
+      <webElementGuid>e598c692-9320-4d44-bb72-dcf9eb46a29f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +51,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' recipe-card ') and (position() = 1)]//h3</value>
-      <webElementGuid>1611e188-9a31-4e33-9e15-4c5c985fc396</webElementGuid>
+      <webElementGuid>5825a06a-49a1-4113-be1c-5e0e3d8d36ee</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +59,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' recipe-card ') and (position() = 1)]//h3</value>
-      <webElementGuid>c8b4f4a0-a55d-4c87-8860-7bc9fa3f492c</webElementGuid>
+      <webElementGuid>b3f92510-c96a-40bd-b53d-3fce79bfe55a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +67,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h3[(text() = 'Detox Orange Carrot Juice' or . = 'Detox Orange Carrot Juice')]</value>
-      <webElementGuid>8b9eb410-e339-4f22-82e6-6bede7c0718d</webElementGuid>
+      <webElementGuid>1216526a-aaf9-492b-8954-c9603d9e3e3e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
