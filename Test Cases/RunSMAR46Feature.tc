@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Runs the SMAR-46 add missing ingredients to the shopping list BDD feature.</description>
+   <name>RunSMAR46Feature</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9f3b0c4a-5d6e-4f70-8123-3c4d5e6f7081</testCaseGuid>
+</TestCaseEntity>
