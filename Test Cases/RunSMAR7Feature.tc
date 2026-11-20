@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Runs the SMAR-7 switch profile BDD feature.</description>
+   <name>RunSMAR7Feature</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7d1f8a2e-3b4c-4d5e-8f90-1a2b3c4d5e6f</testCaseGuid>
+</TestCaseEntity>
