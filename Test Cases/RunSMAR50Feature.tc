@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Runs the SMAR-50 check how many times a recipe was prepared BDD feature.</description>
+   <name>RunSMAR50Feature</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a04c1d5b-6e7f-4081-9234-4d5e6f708192</testCaseGuid>
+</TestCaseEntity>
