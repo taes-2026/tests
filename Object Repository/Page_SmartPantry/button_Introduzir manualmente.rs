@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>09299f9e-8b91-4b22-b493-fd288ad18099</webElementGuid>
+      <webElementGuid>095b916f-6cdc-4675-9659-a1f55591f9f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,7 +35,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ee3ae52d-1e94-468d-aea7-2a4cbd65ab96</webElementGuid>
+      <webElementGuid>3129b4fe-9a12-4a35-b318-5d5b07328548</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +43,7 @@
       <name>class</name>
       <type>Main</type>
       <value>secondary</value>
-      <webElementGuid>e6af84c1-1a39-4c94-91e0-ec02b504c3e6</webElementGuid>
+      <webElementGuid>3585ec3d-cc78-4f13-8e65-ed5561d5700e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -51,7 +51,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Introduzir manualmente</value>
-      <webElementGuid>3d6dc314-b2e9-4afd-b5df-8ce9731075de</webElementGuid>
+      <webElementGuid>08861be7-1046-4a75-87a5-4a29deffc1ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-b80a291951a6781a0273634fd211a834</value>
-      <webElementGuid>af5d439a-8c3e-4e3b-b504-903aa39fb9f6</webElementGuid>
+      <webElementGuid>e0e23280-10f2-4b68-b483-a5ebfd8d08e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,7 +67,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' secondary ')]</value>
-      <webElementGuid>2aab1542-c5bb-49ed-9f0b-b4b1fa0971a7</webElementGuid>
+      <webElementGuid>2efc5ee8-67c7-49be-b902-6acfdeab9bdc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' secondary ')]</value>
-      <webElementGuid>517c624e-77ec-40c4-b1d7-a9775cb93aca</webElementGuid>
+      <webElementGuid>b1f174af-ed48-452b-ae06-d08646d74765</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,6 +83,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Introduzir manualmente' or . = 'Introduzir manualmente')]</value>
-      <webElementGuid>a547e32a-59cf-4e47-ac66-7e1735dc9303</webElementGuid>
+      <webElementGuid>1ade64c6-22cd-416c-aa41-424d41ad3a8e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

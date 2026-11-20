@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CheckIngredientsForActiveStep</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c5bdd8c2-f1cb-4c2f-a964-b033bd5a0f59</testCaseGuid>
+</TestCaseEntity>

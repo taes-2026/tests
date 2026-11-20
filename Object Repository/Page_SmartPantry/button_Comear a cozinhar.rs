@@ -6,16 +6,16 @@
    <elementGuidId>0c646a13-ebf1-4756-86d0-5b1485b24462</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>.cook-mode-btn</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' cook-mode-btn ')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@type = 'button' and (text() = ' Começar a cozinhar ' or . = ' Começar a cozinhar ')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>.cook-mode-btn</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>857dc83b-93fd-4903-93cb-398fcf07e9cc</webElementGuid>
+      <webElementGuid>0e3cd940-638c-4ea8-aaf7-abe0dc244b29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>cook-mode-btn</value>
-      <webElementGuid>26b1c0ae-1c1d-4a5a-b5e6-21298dce99c3</webElementGuid>
+      <webElementGuid>1208cb82-dfb3-4245-bf53-53982efb5b70</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Começar a cozinhar </value>
-      <webElementGuid>f5f3f659-d22a-45d7-b9b5-a9223b0d58a6</webElementGuid>
+      <webElementGuid>af14cd13-73f9-4173-843d-268b2ec6a80a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6629cfee-1110-4e2e-8b9e-5e25d69df805</webElementGuid>
+      <webElementGuid>a6cf55b3-234c-4295-b8d9-270cec553406</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-6b1ff7418dd1e05f456bad28e92cdb55</value>
-      <webElementGuid>b47ceb4e-d04c-4cf0-beb8-e11e60db536d</webElementGuid>
+      <webElementGuid>d7fd0b85-4a8f-41ef-94bc-68b547ab582b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' cook-mode-btn ')]</value>
-      <webElementGuid>77876898-4b9d-431d-91a4-06b7748fae1f</webElementGuid>
+      <webElementGuid>71f23640-8d2b-4f63-9adc-f9ea7ddf1132</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' cook-mode-btn ')]</value>
-      <webElementGuid>b69de875-dd85-43cb-9b22-b1bf95910cfd</webElementGuid>
+      <webElementGuid>308f6978-16fd-4332-be8b-d068c101a07c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = ' Começar a cozinhar ' or . = ' Começar a cozinhar ')]</value>
-      <webElementGuid>de98b31c-787c-4433-a5d1-b65d6f03bb41</webElementGuid>
+      <webElementGuid>5865cf03-b6fe-4a19-847a-f6c43eed5c2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

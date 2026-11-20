@@ -6,16 +6,16 @@
    <elementGuidId>5c1d413a-7280-4454-a573-aa3512087f58</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>[value=&quot;&quot;]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//*[@type = 'date']</value>
+         <value>//*[@value = '']</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@type = 'date']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>[type=&quot;date&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>6b1e8b85-35e1-42b2-8d93-b890ac85e89f</webElementGuid>
+      <webElementGuid>6f3a41e8-c140-4ddf-aa5a-6d08deb702c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,47 +35,47 @@
       <name>type</name>
       <type>Main</type>
       <value>date</value>
-      <webElementGuid>09d6cce8-0902-432b-bae4-a6c7406efffa</webElementGuid>
+      <webElementGuid>33400525-e7c4-4152-b57c-a60813331b34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>min</name>
       <type>Main</type>
-      <value>2016-11-05</value>
-      <webElementGuid>237bea08-f1b9-4750-900f-eab094d36ffc</webElementGuid>
+      <value>2016-11-20</value>
+      <webElementGuid>cff3de31-f698-4704-b709-3dc0460a66b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>max</name>
       <type>Main</type>
-      <value>2036-11-05</value>
-      <webElementGuid>8d3864f9-3f1b-4680-898d-7082074eb17e</webElementGuid>
+      <value>2036-11-20</value>
+      <webElementGuid>24e67c61-e8d5-465a-a0e4-2cca1de439ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-ef2b29450d1d10368af6cdba612ece59</value>
-      <webElementGuid>2d93c675-3c56-4fae-bedf-fb344ea0722e</webElementGuid>
+      <value>md5.v1-5b7fb5260e2ff98428091c903cd3efee</value>
+      <webElementGuid>dab398ae-2191-4450-a396-29e0d0e338a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@type = 'date']</value>
-      <webElementGuid>4e220583-6580-4ef4-b35e-f932e491773b</webElementGuid>
+      <value>//*[@value = '']</value>
+      <webElementGuid>202b970c-7f2f-487c-9459-e5e74f39b301</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@type = 'date']</value>
-      <webElementGuid>b6eaf6c3-774f-4b46-9628-7a9b9a2a2442</webElementGuid>
+      <value>//*[@value = '']</value>
+      <webElementGuid>236c892a-00d8-4440-bc7a-6a539b78a74e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,6 +83,14 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'date']</value>
-      <webElementGuid>c2629762-2609-487c-8a2a-f5ad29dccf7e</webElementGuid>
+      <webElementGuid>e528ecdb-bcf0-4148-bf05-6cacfa0fa71e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@type = 'date']</value>
+      <webElementGuid>b6eaf6c3-774f-4b46-9628-7a9b9a2a2442</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,16 +6,16 @@
    <elementGuidId>1f4e7845-bc2c-49b7-9775-aec2a2215fa3</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>.primary</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//button[contains(normalize-space(.), 'Seguinte')]</value>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' primary ')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@type = 'button' and (text() = 'Seguinte →' or . = 'Seguinte →')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>.cook-footer button.nav.primary</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>99a5a839-079d-4da6-a549-b1c123f734d5</webElementGuid>
+      <webElementGuid>514cf29a-c139-4c56-83e3-65f98e558c95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav primary</value>
-      <webElementGuid>6edc03ad-e4e9-4b9d-b981-f9d6f4236cc6</webElementGuid>
+      <webElementGuid>bb04169a-1383-48a8-923c-2b8adb966a0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Seguinte →</value>
-      <webElementGuid>8c4c8ed5-1e99-4e7c-9438-061c1d9378da</webElementGuid>
+      <webElementGuid>3c122cb8-be4d-45bb-bce3-0d9871bcdc15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>474581e4-5978-4c96-a29f-f4213b2eea55</webElementGuid>
+      <webElementGuid>5bdf2109-fcbd-449e-956e-4c0903b2e419</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-457286aeb07c226682b0f09932bc1730</value>
-      <webElementGuid>8f43f652-0c9f-493f-9387-31975412701b</webElementGuid>
+      <webElementGuid>ce914784-f098-4622-bf02-2df57d155474</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' primary ')]</value>
-      <webElementGuid>d94c13ff-82cd-4b25-adad-a8b07dcf5cb4</webElementGuid>
+      <webElementGuid>545cd61e-8e4a-489f-9ebb-eef7fdd353af</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' primary ')]</value>
-      <webElementGuid>8238ea0c-20f9-432d-9a90-e218354964c9</webElementGuid>
+      <webElementGuid>e0eb6ffb-bf7e-46a2-885d-1922948ff83b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Seguinte →' or . = 'Seguinte →')]</value>
-      <webElementGuid>0e73ab2d-1520-4a40-9296-4c9fdc44cf08</webElementGuid>
+      <webElementGuid>350142b9-cf3a-4e86-8aa9-233227ed1cfc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
