@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Runs the SMAR-43 check ingredient overlap BDD feature.</description>
+   <name>RunSMAR43Feature</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8e2a9b3f-4c5d-4e6f-9012-2b3c4d5e6f70</testCaseGuid>
+</TestCaseEntity>
