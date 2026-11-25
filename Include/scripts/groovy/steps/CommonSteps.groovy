@@ -61,9 +61,21 @@ class CommonSteps {
         WebUI.click(findTestObject('Page_SmartPantry/button_Adicionar produto'))
     }
 	
+	
+	@When("I go to the dashboard")
+	def goToDashboard() {
+		WebUI.navigateToUrl('http://localhost:5173/')
+	}
+	
+	
 	@When("I tap the Começar a cozinhar button")
 	def tapStartCookingButton() {
 		WebUI.click(findTestObject('Page_SmartPantry/button_Comear a cozinhar'))
+	}
+	
+	@And("I reload the page")
+	def reloadPage() {
+		WebUI.refresh()
 	}
 	
 	@And("I fill the item details with {string}")
