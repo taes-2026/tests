@@ -36,7 +36,7 @@ WebUI.selectOptionByValue(findTestObject('Page_SmartPantry/select_Categoria Frut
 
 WebUI.setText(findTestObject('Page_SmartPantry/input_Quantidade'), '1')
 
-WebUI.setText(findTestObject('Page_SmartPantry/input_Data de validade'), '2026-11-06')
+WebUI.setText(findTestObject('Page_SmartPantry/input_Data de validade'), '2026-11-27')
 
 WebUI.click(findTestObject('Page_SmartPantry/button_Comear'))
 
