@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@value = '']</value>
+         <value>//input[@type = 'date']</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -66,7 +66,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@value = '']</value>
+      <value>//input[@type = 'date']</value>
       <webElementGuid>202b970c-7f2f-487c-9459-e5e74f39b301</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
@@ -74,7 +74,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@value = '']</value>
+      <value>//input[@type = 'date']</value>
       <webElementGuid>236c892a-00d8-4440-bc7a-6a539b78a74e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>

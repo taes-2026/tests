@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[(name() = 'label') and (position() = 2)]//select</value>
+         <value>//label[contains(., 'Categoria')]//select</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -50,7 +50,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[(name() = 'label') and (position() = 2)]//select</value>
+      <value>//label[contains(., 'Categoria')]//select</value>
       <webElementGuid>a7616d92-48b5-455c-a0df-d734b27ebfb6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
@@ -58,7 +58,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[(name() = 'label') and (position() = 2)]//select</value>
+      <value>//label[contains(., 'Categoria')]//select</value>
       <webElementGuid>7a492e73-7e56-4b0c-84b6-cb3b35531219</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>

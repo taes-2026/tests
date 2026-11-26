@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Runs the SMAR-64 edit household profile BDD feature.</description>
+   <name>RunSMAR64Feature</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>244effa9-8f7d-43ca-891a-dfc4a35c1179</testCaseGuid>
+</TestCaseEntity>

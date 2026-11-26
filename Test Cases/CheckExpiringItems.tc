@@ -3,6 +3,20 @@
    <description></description>
    <name>CheckExpiringItems</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Rodrigo Silva</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>24d99524-ce26-46a8-9bd9-3c64b49eb5bf</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <origin>WEB_RECORDER</origin>
    <recordOption>OTHER</recordOption>
