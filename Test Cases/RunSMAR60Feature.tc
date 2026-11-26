@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Runs the SMAR-60 adjust consumed quantities BDD feature.</description>
+   <name>RunSMAR60Feature</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a55cbaf5-dc11-494c-b60b-2e4fa93ddab0</testCaseGuid>
+</TestCaseEntity>
