@@ -1,0 +1,48 @@
+{
+  "app": "smartpantry",
+  "version": 1,
+  "exportedAt": "2026-11-26T10:15:00.000Z",
+  "data": {
+    "profile": {
+      "id": "imported-profile",
+      "name": "Perfil Importado",
+      "diet": "omnivore",
+      "intolerances": [],
+      "restrictions": [],
+      "createdAt": "2026-11-26T10:00:00.000Z",
+      "updatedAt": "2026-11-26T10:00:00.000Z"
+    },
+    "profiles": [
+      {
+        "id": "imported-profile",
+        "name": "Perfil Importado",
+        "diet": "omnivore",
+        "intolerances": [],
+        "restrictions": [],
+        "createdAt": "2026-11-26T10:00:00.000Z",
+        "updatedAt": "2026-11-26T10:00:00.000Z"
+      }
+    ],
+    "activeProfileId": "imported-profile",
+    "items": [
+      {
+        "id": "imported-item-1",
+        "name": "Maçã",
+        "category": "fruits",
+        "quantity": 2,
+        "unit": "unit",
+        "expirationDate": "2027-01-01",
+        "createdAt": "2026-11-26T10:00:00.000Z",
+        "updatedAt": "2026-11-26T10:00:00.000Z"
+      }
+    ],
+    "categories": {
+      "fruits": "Frutas"
+    },
+    "bookmarks": [],
+    "collections": [],
+    "cachedRecipes": {},
+    "shoppingList": [],
+    "preparations": []
+  }
+}
