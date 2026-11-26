@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Runs the SMAR-52 Sous-Chef recipe generator BDD feature. Start the recipe-generator with --test (testing mode) before executing.</description>
+   <name>RunSMAR52Feature</name>
+   <tag>GenAI</tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Bruno</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Bruno</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>c84d8c36-be5a-45b8-821d-279310caf298</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>c84d8c36-be5a-45b8-821d-279310caf298</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7115e441-986c-43fa-adda-6df026939d70</testCaseGuid>
+</TestCaseEntity>
