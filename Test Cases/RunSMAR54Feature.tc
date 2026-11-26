@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Runs the SMAR-54 generated recipe details BDD feature. Start the recipe-generator with --test (testing mode) before executing.</description>
+   <name>RunSMAR54Feature</name>
+   <tag>GenAI</tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Bruno</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Bruno</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>c84d8c36-be5a-45b8-821d-279310caf298</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>c84d8c36-be5a-45b8-821d-279310caf298</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e223e849-3fd3-4e8d-a70f-7df60ba7a447</testCaseGuid>
+</TestCaseEntity>
