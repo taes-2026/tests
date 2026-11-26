@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[(name() = 'label') and (position() = 4)]//select</value>
+         <value>//label[contains(., 'Unidade')]//select</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -50,7 +50,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[(name() = 'label') and (position() = 4)]//select</value>
+      <value>//label[contains(., 'Unidade')]//select</value>
       <webElementGuid>767290c5-889c-4510-a08c-e6c1d7a7a5fb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
@@ -58,7 +58,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[(name() = 'label') and (position() = 4)]//select</value>
+      <value>//label[contains(., 'Unidade')]//select</value>
       <webElementGuid>6a7c2b50-9a1e-4856-8d3e-3962c0f5d4f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
@@ -66,7 +66,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//select[(text() = 'Unidade(s)kggLmlEmbalagem' or . = 'Unidade(s)kggLmlEmbalagem')]</value>
+      <value>//select[.//option[@value='unit']]</value>
       <webElementGuid>115cf4f3-5f95-4cec-a5e6-c3da39d1c92f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
