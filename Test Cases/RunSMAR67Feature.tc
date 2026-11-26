@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Runs the SMAR-67 import data with overwrite BDD feature.</description>
+   <name>RunSMAR67Feature</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1b7b6864-3b68-46e9-8f35-3d5b7822e480</testCaseGuid>
+</TestCaseEntity>
