@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Runs the SMAR-66 export app data BDD feature.</description>
+   <name>RunSMAR66Feature</name>
+   <tag></tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8c4f2b1a-6d3e-4f5a-9b21-3c4d5e6f7a80</testCaseGuid>
+</TestCaseEntity>

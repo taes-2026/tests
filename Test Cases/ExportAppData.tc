@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ExportAppData</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Tiago</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Tiago</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>98b45e4d-82eb-4dc6-aa5b-8c2452e4dc08</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>98b45e4d-82eb-4dc6-aa5b-8c2452e4dc08</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>WEB_RECORDER</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dc7fe853-c573-4329-87ff-309ef12a743b</testCaseGuid>
+</TestCaseEntity>
