@@ -4,11 +4,10 @@
    <name>button_Novo perfil</name>
    <tag></tag>
    <elementGuidId>05bc7f44-3448-47ba-9f21-a39bff37f806</elementGuidId>
-   <origin>STUDIOASSIST</origin>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[contains(@class, 'profile-controls')]//button[normalize-space() = '+ Novo']</value>
+         <value>//button[normalize-space()='Novo perfil']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

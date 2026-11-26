@@ -29,11 +29,13 @@ class SwitchProfile {
     }
 
     @When('I open the new profile form')
-    def openNewProfileForm() {
-        WebUI.waitForElementClickable(testObject('button_Novo perfil'), 10)
-        WebUI.click(testObject('button_Novo perfil'))
-        WebUI.waitForElementVisible(testObject('h1_Novo perfil'), 10)
-    }
+	def openNewProfileForm() {
+	    WebUI.waitForElementClickable(testObject('button_Definicoes'), 10)
+	    WebUI.click(testObject('button_Definicoes'))
+	    WebUI.waitForElementClickable(testObject('button_Novo perfil'), 10)
+	    WebUI.click(testObject('button_Novo perfil'))
+	    WebUI.waitForElementVisible(testObject('h1_Novo perfil'), 10)
+	}
 
     @Then('the new profile form is empty')
     def newProfileFormIsEmpty() {
@@ -45,11 +47,13 @@ class SwitchProfile {
     }
 
     @When('I open the edit profile form')
-    def openEditProfileForm() {
-        WebUI.waitForElementClickable(testObject('button_Editar perfil'), 10)
-        WebUI.click(testObject('button_Editar perfil'))
-        WebUI.waitForElementVisible(testObject('h1_Editar perfil'), 10)
-    }
+	def openEditProfileForm() {
+	    WebUI.waitForElementClickable(testObject('button_Definicoes'), 10)
+	    WebUI.click(testObject('button_Definicoes'))
+	    WebUI.waitForElementClickable(testObject('button_Editar perfil'), 10)
+	    WebUI.click(testObject('button_Editar perfil'))
+	    WebUI.waitForElementVisible(testObject('h1_Editar perfil'), 10)
+	}
 
     @Then('the edit profile form is filled with {string} and the {string} diet')
     def editProfileFormIsFilled(String name, String diet) {

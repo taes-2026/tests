@@ -4,11 +4,10 @@
    <name>button_Editar perfil</name>
    <tag></tag>
    <elementGuidId>0dab340b-c6cf-483e-b227-dcec6538d761</elementGuidId>
-   <origin>STUDIOASSIST</origin>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[contains(@class, 'profile-controls')]//button[normalize-space() = 'Editar']</value>
+         <value>//*[contains(normalize-space(.),'Ativo')]//button[normalize-space()='Editar']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
